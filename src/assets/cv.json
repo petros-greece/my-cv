@@ -1,0 +1,344 @@
+{
+  "cv": {
+    "theme": "white",
+    "isMultiLang": "true",
+    "hasCoverLetter": "true",
+    "photo": "./assets/me.jpg",
+    "exportFilename": "petros-tsatsaris-cv",
+    "avatar": "",
+    "defaultLang": "en-GB",
+    "langs": [
+      {
+        "flag": "el-GR",
+        "verb": "Ελληνικά",
+        "machineName": "el-GR"
+      },
+      {
+        "flag": "en-GB",
+        "verb": "Engilsh",
+        "machineName": "en-GB"        
+      }
+    ],
+    "coverLetter": {
+      "el-GR": "I am the best"
+    },
+    "header": {
+      "el-GR": "Πέτρος Τσάτσαρης",
+      "en-GB": "Peter Tsatsaris"
+    },
+    "sections": {
+      "el-GR": [
+        {
+          "title": "Επικοινωνία",
+          "fields": [
+            {
+              "title": "Κινητό",
+              "val": "6988440549",
+              "type": "link",
+              "url": "tel:6988440549"
+            },
+            {
+              "title": "Τόπος διαμονής",
+              "val": "Αχαρνές, Νομός Αττικής",
+              "type": "text"
+            },
+            {
+              "title": "Email",
+              "val": "petrostsatsaris@hotmail.com",
+              "type": "link",
+              "url": "mailto:petrostsatsaris@hotmail.com"
+            },
+            {
+              "title": "GitHub",
+              "val": "petros-greece",
+              "type": "link",
+              "url": "https://github.com/petros-greece"
+            },
+            {
+              "title": "LinkedIn",
+              "val": "Petros Tsatsaris",
+              "type": "link",
+              "url": "https://www.linkedin.com/in/petros-tsatsaris-53425b123/"
+            },
+            {
+              "title": "Πρ. Ιστοσελίδα",
+              "val": "Siteland",
+              "type": "link",
+              "url": "https://siteland.eu"
+            }
+          ]
+        },
+        {
+          "title": "Εκπαίδευση",
+          "fields": [
+            {
+              "title": "Σχολείο",
+              "val": "Κολλέγιο Αθηνών (1988-2000)",
+              "type": "text"
+            },
+            {
+              "title": "Πανεπιστήμιο",
+              "val": "Γεωπονικό Πανεπιστήμιο Αθηνών (2000-2004)",
+              "type": "text"
+            },
+            {
+              "title": "Σεμινάρια",
+              "val": "Σεμινάρια για φυσική γεωργία (2005)",
+              "type": "text"
+            },
+            {
+              "title": "Γλώσσες",
+              "val": "Ελληνικά, Αγγλικά, Γαλλικά (Βασικά)",
+              "type": "text"
+            },
+            {
+              "title": "Στρατός",
+              "val": "Σώμα μηχανικού (2008)",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "title": "Απασχόληση",
+          "fields": [
+            {
+              "title": "Code Hub (2023-2024) - Senior Developer",
+              "val": [
+                "Υπεύθυνος για τη μεταφορά της εσωτερικής πλατφόρμας της CEPAL από AngularJS σε Angular 14+.",
+                "Χρήση μεθοδολογίας Agile μέσω του Azure DevOps.",
+                "Χρήση του Git Flow στο Azure DevOps για έλεγχο έκδοσης και συνεργασία."
+              ],
+              "type": "list"
+            },
+            {
+              "title": "Deva Group (2019-2023) - Lead Developer",
+              "val": [
+                "Ανάπτυξη του βασικού frontend κώδικα για την πλατφόρμα PXM keyvoto.com, χρησιμοποιώντας Angular 13+.",
+                "Δημιουργία ενός middleware που ενοποίησε όλες τις μικροϋπηρεσίες και τα εξωτερικά APIs που χρησιμοποιούνται στο keyvoto, βοηθώντας έτσι την επικοινωνία του frontend με αυτά. Το έγραψα σε node.js χρησιμοποιώντας την framework Nest.js.",
+                "Ενσωμάτωση εργαλείων AI στο keyvoto για βελτίωση, διόρθωση και επιτάχυνση της εμπειρίας του χρήστη.",
+                "Καθοδήγηση και εκπαίδευση junior και entry-level προγραμματιστών ώστε να ευθυγραμμιστούν με τα έργα της εταιρείας.",
+                "Λήψη αποφάσεων σχετικά με τις τεχνολογίες που θα χρησιμοποιηθούν σε έργα της εταιρείας, όπως ηλεκτρονικά καταστήματα.",
+                "Ανάπτυξη module στο Magento 2 και plugin στο WordPress, για την σύνδεση της πλατφόρμας keyvoto με αυτά.",
+                "Ανάπτυξη εργαλείων web crawling με node.js και PHP.",
+                "Μικρή συμμετοχή στην ανάπτυξη του site του σουπερμαρκετ Γαλαξίας."
+              ],
+              "type": "list"
+            },
+            {
+              "title": "Imagination Travel (2018) - Full Stack Developer",
+              "val": [
+                "Ανάπτυξη εσωτερικού διαχειριστικού συστήματος χρησιμοποιώντας PHP 7, για την συστηματική συλλογή δεδομένων από APIs ξενοδοχείων (π.χ. Hotelbeds), και για την επαλήθευσή, ματασχηματισμό και ομογενοποίηση τους, πριν από την αποθήκευση στην SQL βάση του συστήματος.",
+                "Δημιουργία αλγορίθμου για την αυτόματη δημιουργία ταξιδιωτικών προσφορών από τα εισερχόμενα δεδομένα αυτών των APIs.",
+                "Δημιουργία e-shop σε Wordpress, καθώς και δημιουργία plugin γι' αυτό, το οποίο συνέδεσε τα δεδομένα και τις προσφορές του διαχειριστικού που αναφέρω παραπάνω, με το CMS.",
+                "Ανάπτυξη εργαλείων χρησιμοποιώντας το Google Maps API για την αυτόματη κατηγοριοποίηση τοποθεσιών.",
+                "Ανάπτυξη λογισμικού λογιστικής υποστήριξης."
+              ],
+              "type": "list"
+            }
+          ]
+        },
+        {
+          "title": "Τεχνολογία",
+          "fields": [
+            {
+              "title": "Γλώσσες",
+              "val": "HTML5, CSS3 (SCSS), JAVASCRIPT (TypeScript, Node.js), PHP",
+              "type": "text"
+            },
+            {
+              "title": "Βάσεις",
+              "val": "SQL (MySQL, PDO), MongoDB",
+              "type": "text"
+            },
+            {
+              "title": "Frameworks",
+              "val": "Angular, AngularJS, Vue.js, Nest.js, CodeIgniter, Svelte, Next.js (basics)",
+              "type": "text"
+            },            
+            {
+              "title": "Βιβλιοθήκες",
+              "val": "Angular Material, Tailwind, jQuery, Matter.js, Fabric.js, Bootstrap",
+              "type": "text"
+            },
+            {
+              "title": "CMS",
+              "val": "WordPress (WooCommerce), Magento 2 (Module development)",
+              "type": "text"
+            },
+            {
+              "title": "Εργαλεία",
+              "val": "Git Hub, ChatGPT, CodePen, Social Media tools, SEO tools, Map tools, Postman, Selenium, Xampp/Wamp, Swagger",
+              "type": "text"
+            },
+            {
+              "title": "Γραφικά",
+              "val": "Adobe illustrator, SVG, HTML Canvas",
+              "type": "text"
+            },
+            {
+              "title": "Διαχείριση",
+              "val": "Plesk (Shared hosting), Microsoft Azure (Computer Vision, Blob Storage)",
+              "type": "text"
+            }
+          ]
+        }
+      ],
+      "en-GB": [
+        {
+          "title": "Contact",
+          "fields": [
+            {
+              "title": "Mobile",
+              "val": "+30 6988440549",
+              "type": "link",
+              "url": "tel:+306988440549"
+            },
+            {
+              "title": "Residence",
+              "val": "Acharnes, Attica",
+              "type": "text"
+            },
+            {
+              "title": "Email",
+              "val": "petrostsatsaris@hotmail.com",
+              "type": "link",
+              "url": "mailto:petrostsatsaris@hotmail.com"
+            },
+            {
+              "title": "GitHub",
+              "val": "petros-greece",
+              "type": "link",
+              "url": "https://github.com/petros-greece"
+            },
+            {
+              "title": "LinkedIn",
+              "val": "Petros Tsatsaris",
+              "type": "link",
+              "url": "https://www.linkedin.com/in/petros-tsatsaris-53425b123/"
+            },
+            {
+              "title": "Website",
+              "val": "Siteland",
+              "type": "link",
+              "url": "https://siteland.eu"
+            }
+          ]
+        },
+        {
+          "title": "Education",
+          "fields": [
+            {
+              "title": "School",
+              "val": "Athens College (1988-2000)",
+              "type": "text"
+            },
+            {
+              "title": "University",
+              "val": "Agricultural University of Athens (2000-2004)",
+              "type": "text"
+            },
+            {
+              "title": "Seminars",
+              "val": "Seminars on Natural Agriculture (2005)",
+              "type": "text"
+            },
+            {
+              "title": "Languages",
+              "val": "Greek, English, French (basic)",
+              "type": "text"
+            },
+            {
+              "title": "Military Service",
+              "val": "Engineering Force (2008)",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "title": "Employment",
+          "fields": [
+            {
+              "title": "Code Hub (2023-2024) - Senior Developer",
+              "val": [
+                "Responsible for migrating CEPAL's internal platform from AngularJS to Angular 14+.",
+                "Used Agile methodology via Azure DevOps.",
+                "Used Git Flow in Azure DevOps for version control and collaboration."
+              ],
+              "type": "list"
+            },
+            {
+              "title": "Deva Group (2019-2023) - Lead Developer",
+              "val": [
+                "Developed the core frontend code for the PXM platform keyvoto.com, using Angular 13+.",
+                "Created a middleware that integrated all microservices and external APIs used in keyvoto, facilitating communication between the frontend and these. I developed it with node.js using the Nest.js framework.",
+                "Integrated AI tools into keyvoto to improve, correct, and accelerate the user experience.",
+                "Mentored and trained junior and entry-level developers to align with company projects.",
+                "Made decisions regarding the technologies to be used in company projects, such as e-commerce stores.",
+                "Developed a module in Magento 2 and a plugin in WordPress to connect them with the keyvoto platform.",
+                "Developed web crawling tools using node.js and PHP.",
+                "Minor participation in the development of the Galaxias supermarket website."
+              ],
+              "type": "list"
+            },
+            {
+              "title": "Imagination Travel (2018) - Full Stack Developer",
+              "val": [
+                "Developed an internal management system using PHP 7, for systematic data collection from hotel APIs (e.g., Hotelbeds), and for verifying, transforming, and homogenizing the data before storing it in the system's SQL database.",
+                "Created an algorithm for automatically generating travel offers from the incoming data of these APIs.",
+                "Developed an e-shop in WordPress, as well as a plugin for it, which connected the data and offers from the management system mentioned above with the CMS.",
+                "Developed tools using the Google Maps API for the automatic categorization of locations.",
+                "Developed accounting support software."
+              ],
+              "type": "list"
+            }
+          ]
+        },
+        {
+          "title": "Technology",
+          "fields": [
+            {
+              "title": "Languages",
+              "val": "HTML5, CSS3 (SCSS), JAVASCRIPT (TypeScript, Node.js), PHP",
+              "type": "text"
+            },
+            {
+              "title": "Databases",
+              "val": "SQL (MySQL, PDO), MongoDB",
+              "type": "text"
+            },
+            {
+              "title": "Frameworks",
+              "val": "Angular, AngularJS, Vue.js, Nest.js, CodeIgniter, Svelte, Next.js (basics)",
+              "type": "text"
+            },  
+            {
+              "title": "Libraries",
+              "val": "Angular Material, Tailwind, jQuery, Matter.js, Fabric.js, Bootstrap",
+              "type": "text"
+            },
+            {
+              "title": "CMS",
+              "val": "WordPress (WooCommerce), Magento 2 (Module development)",
+              "type": "text"
+            },
+            {
+              "title": "Tools",
+              "val": "Git Hub, ChatGPT, CodePen, Social Media tools, SEO tools, Map tools, Postman, Selenium, Xampp/Wamp, Swagger",
+              "type": "text"
+            },
+            {
+              "title": "Graphics",
+              "val": "Adobe Illustrator, SVG, HTML Canvas",
+              "type": "text"
+            },
+            {
+              "title": "System Admin",
+              "val": "Plesk (Shared hosting), Microsoft Azure (Computer Vision, Blob Storage)",
+              "type": "text"
+            }
+          ]
+        }      
+      ]
+    }
+  }
+}

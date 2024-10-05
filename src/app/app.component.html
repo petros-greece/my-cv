@@ -1,0 +1,39 @@
+<div *ngIf="lang" class="p-2 pb-20" #content>
+
+  <h2 class="flex items-center">
+    {{cv.header[lang]}}
+    <button mat-icon-button color="primary" (click)="downloadPDF()" class="exclude-download">
+      <mat-icon>picture_as_pdf</mat-icon>
+    </button>
+    <div class="ml-auto">
+      <button mat-button *ngFor="let language of cv.langs" [disabled]="language.machineName===lang" (click)="lang=language.machineName">
+        {{ language.verb }}
+      </button>
+    </div>   
+  </h2>
+
+  <div *ngFor="let section of cv.sections[lang]">
+    <h3 class="!mt-5 border-b-2 border-black w-full pb-2">{{ section.title }}</h3>
+    
+        <div *ngFor="let field of section.fields;index as i">      
+          <div [ngSwitch]="field.type">
+            <div *ngSwitchCase="'text'" class="flex flex-row mb-1">
+              <div class="w-32">{{ field.title }}</div>
+              <div>{{ field.val }}</div>
+            </div>
+            <div *ngSwitchCase="'link'" class="flex flex-row mb-1">
+              <div class="w-32">{{ field.title }}</div>
+              <div><a [href]="field.url" target="_blank" class="text-blue-800">{{ field.val }}</a></div>
+            </div>  
+            <div *ngSwitchCase="'list'" class="flex flex-col">
+              <em [ngClass]="i===0 ? 'mb-3' : 'mt-3 mb-3'">{{ field.title }}</em>
+              <ul class="!list-disc ml-5">
+                <li *ngFor="let li of field.val">{{li}}</li>
+              </ul>
+            </div>          
+          </div>
+
+        </div>
+
+  </div>
+</div>
