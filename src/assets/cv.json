@@ -16,7 +16,7 @@
       {
         "flag": "en-GB",
         "verb": "Engilsh",
-        "machineName": "en-GB"        
+        "machineName": "en-GB"
       }
     ],
     "coverLetter": {
@@ -102,22 +102,32 @@
           "title": "Απασχόληση",
           "fields": [
             {
+              "title": "Brainfood Media (2024-Present) - Senior Developer",
+              "val": [
+                "Ανάπτυξη βιβλιοθήκης βασισμένης στο Video.js για την προβολή διαφημίσεων σε ιστοσελίδες.",
+                "Δημιουργία λογιστικού συστήματος με διασύνδεση στο Capital και το myData για την αυτόματη έκδοση τιμολογίων.",
+                "Ανάπτυξη modules για την εσωτερική πλατφόρμα της εταιρείας, χρησιμοποιώντας CodeIgniter.",
+                "Συμμετοχή στην ανάπτυξη αυτοματοποιημένου συστήματος περιεχομένου, το οποίο συλλέγει άρθρα από διάφορες πηγές, τα παραφράζει μέσω AI, βρίσκει σχετικές εικόνες και, μετά από έγκριση, τα δημοσιεύει σε πολλαπλά CMS."
+              ],
+              "type": "list"
+            },
+            {
               "title": "Code Hub (2023-2024) - Senior Developer",
               "val": [
-                "Υπεύθυνος για τη μεταφορά της εσωτερικής πλατφόρμας της CEPAL από AngularJS σε Angular 14+.",
-                "Χρήση μεθοδολογίας Agile μέσω του Azure DevOps.",
-                "Χρήση του Git Flow στο Azure DevOps για έλεγχο έκδοσης και συνεργασία."
+                "Υπεύθυνος για τη μεταφορά του frontend κώδικα της εσωτερικής πλατφόρμας της CEPAL από AngularJS σε Angular 14+.",
+                "Χρήση μεθοδολογίας Agile μέσω του Azure DevOps για την διαχείρηση και έλεγχο της εξέλιξης του project.",
+                "Χρήση του Git Flow μέσα από το Azure DevOps για τον έλεγχο της έκδοσης και την βελτιώση της συνεργασίας."
               ],
               "type": "list"
             },
             {
               "title": "Deva Group (2019-2023) - Lead Developer",
               "val": [
-                "Ανάπτυξη του βασικού frontend κώδικα για την πλατφόρμα PXM keyvoto.com, χρησιμοποιώντας Angular 13+.",
-                "Δημιουργία ενός middleware που ενοποίησε όλες τις μικροϋπηρεσίες και τα εξωτερικά APIs που χρησιμοποιούνται στο keyvoto, βοηθώντας έτσι την επικοινωνία του frontend με αυτά. Το έγραψα σε node.js χρησιμοποιώντας την framework Nest.js.",
+                "Ανάπτυξη του βασικού κορμού του frontend κώδικα για την πλατφόρμα PXM keyvoto.com, χρησιμοποιώντας Angular 13+.",
+                "Δημιουργία ενός middleware που ενοποίησε όλες τις μικροϋπηρεσίες και τα εξωτερικά APIs που χρησιμοποιούνταν στο keyvoto, βοηθώντας και ομολοποιώντας έτσι την επικοινωνία του frontend με αυτά. Το έγραψα σε node.js χρησιμοποιώντας την framework Nest.js.",
                 "Ενσωμάτωση εργαλείων AI στο keyvoto για βελτίωση, διόρθωση και επιτάχυνση της εμπειρίας του χρήστη.",
                 "Καθοδήγηση και εκπαίδευση junior και entry-level προγραμματιστών ώστε να ευθυγραμμιστούν με τα έργα της εταιρείας.",
-                "Λήψη αποφάσεων σχετικά με τις τεχνολογίες που θα χρησιμοποιηθούν σε έργα της εταιρείας, όπως ηλεκτρονικά καταστήματα.",
+                "Λήψη αποφάσεων σχετικά με τις τεχνολογίες που θα χρησιμοποιηθούν σε έργα της εταιρείας, όπως και για νέες εσωτερικές υπηρεσίες του keyvoto.",
                 "Ανάπτυξη module στο Magento 2 και plugin στο WordPress, για την σύνδεση της πλατφόρμας keyvoto με αυτά.",
                 "Ανάπτυξη εργαλείων web crawling με node.js και PHP.",
                 "Μικρή συμμετοχή στην ανάπτυξη του site του σουπερμαρκετ Γαλαξίας."
@@ -127,11 +137,11 @@
             {
               "title": "Imagination Travel (2018) - Full Stack Developer",
               "val": [
-                "Ανάπτυξη εσωτερικού διαχειριστικού συστήματος χρησιμοποιώντας PHP 7, για την συστηματική συλλογή δεδομένων από APIs ξενοδοχείων (π.χ. Hotelbeds), και για την επαλήθευσή, ματασχηματισμό και ομογενοποίηση τους, πριν από την αποθήκευση στην SQL βάση του συστήματος.",
-                "Δημιουργία αλγορίθμου για την αυτόματη δημιουργία ταξιδιωτικών προσφορών από τα εισερχόμενα δεδομένα αυτών των APIs.",
+                "Ανάπτυξη εσωτερικού διαχειριστικού συστήματος χρησιμοποιώντας PHP 7, για την συστηματική συλλογή δεδομένων από APIs τουριστικού περιεχομένου (π.χ. Hotelbeds), και για την επαλήθευσή, ματασχηματισμό και ομογενοποίηση τους, πριν από την αποθήκευση στην SQL βάση του συστήματος.",
+                "Δημιουργία αλγορίθμου για την αυτόματη δημιουργία ταξιδιωτικών προσφορών, μέσω σύγκρισης των εισερχόμενων δεδομένων αυτών των APIs.",
                 "Δημιουργία e-shop σε Wordpress, καθώς και δημιουργία plugin γι' αυτό, το οποίο συνέδεσε τα δεδομένα και τις προσφορές του διαχειριστικού που αναφέρω παραπάνω, με το CMS.",
-                "Ανάπτυξη εργαλείων χρησιμοποιώντας το Google Maps API για την αυτόματη κατηγοριοποίηση τοποθεσιών.",
-                "Ανάπτυξη λογισμικού λογιστικής υποστήριξης."
+                "Ανάπτυξη εργαλείου χρησιμοποιώντας το Google Maps API που κατηγοριοποιούσε αυτόματα τοποθεσίες και υπολόγιζε βέλτιστες διαδρομές ανάμεσα σε πολλαπλές στάσεις ταξιδιού.",
+                "Ανάπτυξη λογισμικού λογιστικής υποστήριξης, το οποίο διάβαζε λογιστικά φύλλα excel, και έκανε επαλήθευσεις σε διάφορους υπολογισμούς."
               ],
               "type": "list"
             }
@@ -152,12 +162,12 @@
             },
             {
               "title": "Frameworks",
-              "val": "Angular, AngularJS, Vue.js, Nest.js, CodeIgniter, Svelte, Next.js (basics)",
+              "val": "Angular, AngularJS, Vue.js, Nest.js, CodeIgniter, Svelte, Next.js (basics), Tailwind",
               "type": "text"
-            },            
+            },
             {
               "title": "Βιβλιοθήκες",
-              "val": "Angular Material, Tailwind, jQuery, Matter.js, Fabric.js, Bootstrap",
+              "val": "Angular Material, jQuery, Matter.js, Fabric.js, Bootstrap",
               "type": "text"
             },
             {
@@ -258,11 +268,21 @@
           "title": "Employment",
           "fields": [
             {
+              "title": "Brainfood Media (2024-Present) - Senior Developer",
+              "val": [
+                "Development of a library based on Video.js for displaying advertisements on websites.",
+                "Creation of an accounting system integrated with Capital and myData for automatic invoice generation.",
+                "Development of modules for the company's internal platform, using CodeIgniter.",
+                "Participation in the development of an automated content system that collects articles from various sources, paraphrases them using AI, finds relevant images, and, after approval, publishes them across multiple CMS platforms."
+              ],
+              "type": "list"
+            },
+            {
               "title": "Code Hub (2023-2024) - Senior Developer",
               "val": [
-                "Responsible for migrating CEPAL's internal platform from AngularJS to Angular 14+.",
-                "Used Agile methodology via Azure DevOps.",
-                "Used Git Flow in Azure DevOps for version control and collaboration."
+                "Responsible for migrating the frontend code of CEPAL's internal platform from AngularJS to Angular 14+.",
+                "Used Agile methodology via Azure DevOps for managing and tracking project progress.",
+                "Utilized Git Flow through Azure DevOps for version control and improving collaboration."
               ],
               "type": "list"
             },
@@ -270,24 +290,24 @@
               "title": "Deva Group (2019-2023) - Lead Developer",
               "val": [
                 "Developed the core frontend code for the PXM platform keyvoto.com, using Angular 13+.",
-                "Created a middleware that integrated all microservices and external APIs used in keyvoto, facilitating communication between the frontend and these. I developed it with node.js using the Nest.js framework.",
-                "Integrated AI tools into keyvoto to improve, correct, and accelerate the user experience.",
-                "Mentored and trained junior and entry-level developers to align with company projects.",
-                "Made decisions regarding the technologies to be used in company projects, such as e-commerce stores.",
-                "Developed a module in Magento 2 and a plugin in WordPress to connect them with the keyvoto platform.",
-                "Developed web crawling tools using node.js and PHP.",
-                "Minor participation in the development of the Galaxias supermarket website."
+                "Created a middleware that integrated all microservices and external APIs used by keyvoto, streamlining communication between the frontend and these services. Developed using node.js and the Nest.js framework.",
+                "Integrated AI tools into keyvoto to improve, correct, and accelerate user experience.",
+                "Mentored and trained junior and entry-level developers to align with the company's projects.",
+                "Made decisions regarding technologies to be used in the company's projects, as well as for new internal services of keyvoto.",
+                "Developed a module in Magento 2 and a plugin in WordPress, connecting the keyvoto platform with these systems.",
+                "Created web crawling tools using node.js and PHP.",
+                "Had minor involvement in developing the Galaxias supermarket website."
               ],
               "type": "list"
             },
             {
               "title": "Imagination Travel (2018) - Full Stack Developer",
               "val": [
-                "Developed an internal management system using PHP 7, for systematic data collection from hotel APIs (e.g., Hotelbeds), and for verifying, transforming, and homogenizing the data before storing it in the system's SQL database.",
-                "Created an algorithm for automatically generating travel offers from the incoming data of these APIs.",
-                "Developed an e-shop in WordPress, as well as a plugin for it, which connected the data and offers from the management system mentioned above with the CMS.",
-                "Developed tools using the Google Maps API for the automatic categorization of locations.",
-                "Developed accounting support software."
+                "Developed an internal management system using PHP 7, for systematically collecting data from tourism-related APIs (e.g., Hotelbeds), and for verifying, transforming, and homogenizing it before storing it in the system's SQL database.",
+                "Created an algorithm for automatically generating travel offers by comparing incoming data from these APIs.",
+                "Built an e-shop in WordPress, along with a plugin that connected the data and offers from the management system mentioned above with the CMS.",
+                "Developed a tool using the Google Maps API that automatically categorized locations and which also calculated optimal routes among  many different trip stops.",
+                "Developed accounting support software that read accounting spreadsheets in Excel and performed various validation calculations."
               ],
               "type": "list"
             }
@@ -308,12 +328,12 @@
             },
             {
               "title": "Frameworks",
-              "val": "Angular, AngularJS, Vue.js, Nest.js, CodeIgniter, Svelte, Next.js (basics)",
+              "val": "Angular, AngularJS, Vue.js, Nest.js, CodeIgniter, Svelte, Next.js (basics), Tailwind",
               "type": "text"
-            },  
+            },
             {
               "title": "Libraries",
-              "val": "Angular Material, Tailwind, jQuery, Matter.js, Fabric.js, Bootstrap",
+              "val": "Angular Material, jQuery, Matter.js, Fabric.js, Bootstrap",
               "type": "text"
             },
             {
@@ -337,7 +357,7 @@
               "type": "text"
             }
           ]
-        }      
+        }
       ]
     }
   }

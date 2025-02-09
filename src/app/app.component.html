@@ -27,8 +27,8 @@
             </div>  
             <div *ngSwitchCase="'list'" class="flex flex-col">
               <em [ngClass]="i===0 ? 'mb-3' : 'mt-3 mb-3'">{{ field.title }}</em>
-              <ul class="!list-disc ml-5">
-                <li *ngFor="let li of field.val">{{li}}</li>
+              <ul>
+                <li *ngFor="let li of field.val">- {{li}}</li>
               </ul>
             </div>          
           </div>
